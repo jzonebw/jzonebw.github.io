@@ -1,0 +1,77 @@
+/*Styling the J-ZONE HTML  document*/
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+.nav li {
+	display: inline;
+}
+.jumbotron {
+	height: 200px;
+	width: 100%;
+	background-image: url("jumbo.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.jumbotron h1 {
+	color: #ff4500;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Shift', sans-sefif;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.jumbotron p {
+	color: #ff4500;
+	font-size: 20px;
+	text-align: center;
+}
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+.site-guides {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 60px;
+}
+.site-guides h2 {
+	color: #000080;
+	font-size: 24px;
+	font-family: 'Shift', sans-sefif;
+	font-weight: bold;
+}
+.site-guides p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+.learn-more {
+	background-color: f7f7f7;
+}
+.learn-more h3 {
+	color: #000080;
+	font-family: 'Shift', sans-sefif;
+	font-size : 18px;
+	font-weight: bold;
+}
+.learn-more a {
+	color: #00b0ff;
+}
+.footer {
+	background-color: #d3d3d3;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	border-style: groove;
+	border-color: #000080; 
+}
+.footer p {
+    font-weight: bold;
+}
